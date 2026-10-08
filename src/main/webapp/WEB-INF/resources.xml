@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <Resource id="PharmacyDB" type="DataSource">
+        JdbcDriver com.mysql.cj.jdbc.Driver
+        JdbcUrl jdbc:mysql://localhost:3306/pharmacy_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+        UserName student
+        Password student
+        JtaManaged true
+    </Resource>
+</resources>
